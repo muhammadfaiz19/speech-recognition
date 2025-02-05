@@ -110,7 +110,7 @@ const Dictaphone = () => {
         isVisible={alert.isVisible}
         onClose={hideAlert}
       />
-      <div className="relative z-10 flex flex-col items-center justify-center px-4 h-full mx-auto">
+      <div className="relative z-10 flex flex-col items-center justify-center px-4 h-full mx-auto my-16">
         <div className="max-w-3xl text-center">
           <h1 className="mb-8 text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl text-white">
             Real-Time <span className="text-sky-400">Speech</span> Recognition
